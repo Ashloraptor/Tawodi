@@ -29,7 +29,9 @@ export default function PageContainer() {
 
                 <a className="nav-item nav-link" href="#home">Home</a>
 
-                <a className="nav-item nav-link" href="#contact">Contact</a>
+                <a className="nav-item nav-link" href="#games">Games</a>
+
+                <a className="nav-item nav-link" href="#contact">Contact Us</a>
 
               </div>
             </div>
