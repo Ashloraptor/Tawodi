@@ -1,9 +1,14 @@
+import About from "../pages/About";
+import Home from "../pages/Home";
+import Games from "../pages/Games";
+
+
 export default function PageContainer() {
 
   return (
     <div>
       <div className="brand">
-        <img src="src\assets\gt_studios_large_nb.png" width="237px" className="header-logo" alt="Guardtower Studio logo" data-sizes="auto"></img>
+        <img src="src\assets\logo trans 2 small no website inverted.png" width="237px" className="header-logo" alt="Tawodi logo" data-sizes="auto" ></img>
 
       </div>
 
@@ -36,7 +41,9 @@ export default function PageContainer() {
 
       {/* Body */}
       <main className="mx-3">
+
         {/* About */}
+<About></About>
         <br />
         <div className="container">
           <div className="row">
@@ -59,7 +66,7 @@ export default function PageContainer() {
         </div>
         
         {/* Home */}
-
+<Home></Home>
         <div className="container">
           <div className="row">
             <div className="col">
@@ -75,7 +82,7 @@ export default function PageContainer() {
         </div>
 
         {/* Games */}
-
+<Games></Games>
         <br />
         <div className="container">
           <div className="row">
