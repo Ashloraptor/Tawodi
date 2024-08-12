@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  src:
+    local('Poppins'),
+    url('https://fonts.googleapis.com/css?family=Poppins');
+  background: #1D1E22;
+  color: #eee;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background: #1D1E22;
+  color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IM Fell English', serif;
+  src:
+    local('IM Fell English'),
+    url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
+  font-size: 15px;
+  padding-top: 100px;
+}
+
+p {
+  font-family: 'Poppins', Arial, sans-serif;
+  src:
+    local('Poppins'),
+    url('https://fonts.googleapis.com/css?family=Poppins');
+  font-size: 18px;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.pictureframe {
+  width: 100%;
+ 
+}
+
+img {
+  
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16/9;
+  
+}
+
+.header-logo {
+  size: 237px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.back {
+  padding-bottom: 200px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
